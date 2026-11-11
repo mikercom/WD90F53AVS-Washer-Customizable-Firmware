@@ -1,0 +1,25 @@
+# Local firmware material and owner-specific data stay out of this public repo.
+/private/
+/backups/
+/captures/
+/local/
+/work/
+*.manifest.json
+*.bin
+*.img
+*.fw
+*.elf
+*.hex
+*.dump
+*.pcap
+*.pcapng
+*.pem
+*.key
+*.p12
+*.pfx
+*.env
+.env
+__pycache__/
+*.py[cod]
+.venv/
+.pytest_cache/

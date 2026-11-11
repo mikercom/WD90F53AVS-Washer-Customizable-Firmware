@@ -1,0 +1,22 @@
+{
+  "schema_version": 1,
+  "model": "WD90F53AVS",
+  "identity": {
+    "firmware_family": "AWM-US-M64-25-WD80MU",
+    "firmware_build": "20250328.161953",
+    "platform": "Tizen",
+    "platform_version": "7.1.9",
+    "interface_version": "7.0 Laundry combo",
+    "unmapped_version_lines": [
+      "25052649 24120301",
+      "25021204 25021204"
+    ]
+  },
+  "evidence": "Owner-reported About Product and Software Information values, 2026-11-10. Not extracted from a firmware image.",
+  "firmware_images_available": false,
+  "partition_layout_verified": false,
+  "recovery_interface_verified": false,
+  "hardware_restore_test_passed": false,
+  "boot_signature_requirements": "unknown",
+  "rollback_restrictions": "unknown"
+}
