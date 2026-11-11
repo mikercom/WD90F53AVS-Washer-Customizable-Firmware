@@ -1,0 +1,26 @@
+{
+  "schema_version": 1,
+  "source_id": "Samsung-SMART_AT_051-U-Boot",
+  "acquired_on": "2026-11-10",
+  "publisher": "Samsung Electronics",
+  "catalog_url": "https://opensource.samsung.com/main",
+  "catalog_search_term": "SMART_AT_051",
+  "catalog_entry_id": "7147",
+  "filename": "uboot-903575a.tar.gz",
+  "bytes": 15536873,
+  "sha256": "91da8e7407caaee55d564a9b59cca446180bbdf38f322850c55e8e9df06e228a",
+  "archive_member_count": 14319,
+  "archive_root": "ds-artik051-pw-uboot-903575a",
+  "artifact_kind": "bootloader_source",
+  "version_from_makefile": "2017.01",
+  "observed_vendor_configurations": [
+    "configs/artik051_defconfig",
+    "configs/artik051da_defconfig",
+    "configs/artik053_defconfig"
+  ],
+  "complete_washer_firmware_image": false,
+  "compatibility_with_AWM_US_M64_25_WD80MU": "unverified",
+  "hardware_partition_layout_verified": false,
+  "safe_to_flash": false,
+  "notes": "The identifier appears in the washer manual's open-source announcement. That reference does not establish that this ARTIK source matches the installed M64 display or any appliance-control board. The archive is kept outside this repository."
+}

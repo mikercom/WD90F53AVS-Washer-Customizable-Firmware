@@ -16,6 +16,8 @@ Door, heater, water-level, motor and other hardware protections remain enforced.
 
 See [requirements](docs/requirements.md), [research findings](docs/research.md), and [recovery requirements](docs/recovery.md).
 
+An official `SMART_AT_051` U-Boot source archive has now been obtained and inspected. It targets ARTIK051/053 and has not been matched to the installed M64 hardware. See the [acquisition findings](docs/firmware-acquisition.md); it is not the complete firmware needed for the requested modifications.
+
 ## Target baseline
 
 The owner reported these values from the appliance screen on November 10, 2026:
