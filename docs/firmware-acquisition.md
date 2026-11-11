@@ -2,6 +2,8 @@
 
 Research date: November 10, 2026. No modified firmware has been installed.
 
+Follow-up: [November 11 HASS recovery research](hass-recovery-research.md) records sample controller archives, independent integrity checks and a candidate UART programming interface. Target compatibility and complete recovery remain unverified.
+
 ## Material actually obtained
 
 Samsung's Release Center has one result for `SMART_AT_051`, the identifier referenced by the washer's open-source announcement. The result provides `uboot-903575a.tar.gz`. The downloaded archive was inspected without executing its build scripts or extracting files into the project.
@@ -29,3 +31,4 @@ An additional bounded multicast OCF discovery attempt sent three discovery reque
 3. If a compatible read-only service interface or storage reader is established, obtain and compare independent reads, preserve required per-device data privately, and demonstrate restoration on suitable test hardware.
 
 The exact original firmware and a usable recovery path remain blocking dependencies. Rebuilding or modifying an unverified ARTIK bootloader would not implement the requested washer customizations or establish a rollback method.
+

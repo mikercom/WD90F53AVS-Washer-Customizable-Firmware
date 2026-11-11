@@ -1,0 +1,88 @@
+{
+  "research_date": "2026-11-11",
+  "source_repository": "doitaljosh/samsung-hass-fw-unpacker",
+  "source_revision": "8e028337096a802973a57306d8e0cc7f737592bf",
+  "method": "Independent offline decoder; no downloaded code executed; no appliance communication",
+  "target_compatibility": "unverified",
+  "recovery_status": "not a matching complete recovery image",
+  "payloads": [
+    {
+      "archive": "DE92-04721A_DE92-04768A_240208.tar",
+      "payload": "DE92-04721A_0x99DF_240115.lzw",
+      "decoded_bytes": 338368,
+      "decoded_sha256": "f7a99c8fd0a879491669553c6b6c1e27bb440c346b80ae6ddde00e974605c65f",
+      "checks": {
+        "compressed_size": true,
+        "compressed_crc": true,
+        "decoded_size": true,
+        "decoded_crc": true
+      },
+      "matching_strings": []
+    },
+    {
+      "archive": "DE92-04721A_DE92-04768A_240208.tar",
+      "payload": "DE92-04768A_0x4B6B_231216.lzw",
+      "decoded_bytes": 244584,
+      "decoded_sha256": "5a5ad08609e69b75e44b1f8bf88db98d76bb34d8a7d137c8b0378d5aa00854f5",
+      "checks": {
+        "compressed_size": true,
+        "compressed_crc": true,
+        "decoded_size": true,
+        "decoded_crc": true
+      },
+      "matching_strings": []
+    },
+    {
+      "archive": "DE92-04768A_240131.tar",
+      "payload": "DE92-04768A_0x4B6B_231216.lzw",
+      "decoded_bytes": 244584,
+      "decoded_sha256": "5a5ad08609e69b75e44b1f8bf88db98d76bb34d8a7d137c8b0378d5aa00854f5",
+      "checks": {
+        "compressed_size": true,
+        "compressed_crc": true,
+        "decoded_size": true,
+        "decoded_crc": true
+      },
+      "matching_strings": []
+    },
+    {
+      "archive": "DE92-04769A_DE92-04770A_240525.tar",
+      "payload": "DE92-04769A_0xFE3E_240524.lzw",
+      "decoded_bytes": 295528,
+      "decoded_sha256": "265c1975ac20496938be9bfe77af4195399a795bee33b84f49623bf36c57d760",
+      "checks": {
+        "compressed_size": true,
+        "compressed_crc": true,
+        "decoded_size": true,
+        "decoded_crc": true
+      },
+      "matching_strings": []
+    },
+    {
+      "archive": "DE92-04769A_DE92-04770A_240525.tar",
+      "payload": "DE92-04770A_0xBB98_240123.lzw",
+      "decoded_bytes": 424904,
+      "decoded_sha256": "d4c3cd8318c81215a0df2b39de1029db13fb87643ea7c2b296ef388f55a65fef",
+      "checks": {
+        "compressed_size": true,
+        "compressed_crc": true,
+        "decoded_size": true,
+        "decoded_crc": true
+      },
+      "matching_strings": []
+    },
+    {
+      "archive": "FG_DA92-01156A_241204.tar",
+      "payload": "FG_RS5300T_M_OTN_50D0.lzw",
+      "decoded_bytes": 306996,
+      "decoded_sha256": "556f25adad66ed4ad7ff84fa9d67a4cf4615ecb2937ba5d167c5a3929af27ec7",
+      "checks": {
+        "compressed_size": true,
+        "compressed_crc": true,
+        "decoded_size": true,
+        "decoded_crc": true
+      },
+      "matching_strings": []
+    }
+  ]
+}
